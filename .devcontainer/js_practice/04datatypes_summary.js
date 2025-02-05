@@ -42,3 +42,31 @@ myfun()
 
 console.log(typeof myfun);
 console.log(typeof heros);
+
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+//stack(primitive type) and heap(non-primitive)
+
+let d ="aaaa";
+let e = d;
+
+e="bbb";
+console.log(d);
+console.log(e);
+
+let userone = {
+    email:"aaaa",
+    upi:987654,
+}
+
+let usertwo = userone;
+
+console.log(usertwo);
+
+usertwo.email="kajhgfhjajk";
+
+console.log(usertwo.email);
+console.log(userone.email);
