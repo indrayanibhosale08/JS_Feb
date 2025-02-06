@@ -21,12 +21,17 @@ let b = [20,93,84];
 
  const num = [2,4,6,8,6];
  const sqr = num.map(square);
+ const cub = num.map(cube);
 
  console.log(sqr);
 function square(value){
   return Math.pow(value,2);
  }
  
+ console.log(cub);
+ function cube(value){
+  return Math.pow(value,3);
+ }
 //  console.log(b);
 
  //filter method
